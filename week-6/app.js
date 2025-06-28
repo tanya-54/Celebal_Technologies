@@ -57,7 +57,6 @@ app.delete('/products/:id', (req, res) => {
     res.json({ message: 'Product deleted' });
 });
 
-// Start server
 app.listen(PORT, () => {
     console.log(`Server running at http://localhost:${PORT}`);
 });
